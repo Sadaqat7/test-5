@@ -1,0 +1,33 @@
+.content{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin: 0px;
+    vertical-align: 10px !important;
+    
+}
+.des{
+   display: flex;
+   flex-direction: column; 
+   width: 500px;
+   text-align: center;
+}
+.btn{
+    border-radius: 50px !important; 
+    width: 150px !important;
+}
+.row{
+    width: 700px !important;
+}
+section{
+    display: flex !important;
+
+}
+@media only screen and (max-width: 800px) {
+    section {
+        flex-wrap: wrap !important;
+    }
+}
